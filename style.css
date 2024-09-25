@@ -1,3 +1,12 @@
+/* Default classes */
+
+a {
+    font-weight: 200;
+    color: #000000;
+}
+
+/* custom classes */
+
 .title-container {
     font-family: Arial, sans-serif;
     color: #000000;
@@ -6,10 +15,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 0,5fr 0.25fr;
-    
-
-    /* position: sticky; */
-    /* top: 0; */
 }
 
 .logo {
@@ -20,10 +25,11 @@
     grid-row: 1 / 1;
     grid-column: 2 / 5;
 
-    padding-top: 45px;
-    margin-right: 30%;
+    padding-top: 2%;
+    margin-right: 28%;
 
-    font-size: 40px;
+    /* font-size: 40px; */
+    font-size: 3em;
     text-align: center;
 }
 
@@ -38,11 +44,15 @@
 
 .elt {
     grid-row: 3 / 3;
-    margin-bottom: 1%;
+    /* margin-bottom: 1%; */
     margin-top: 1%;
+    padding-top: 5px;
+    padding-bottom: 1%;
 
     font-size: 25px;
     text-align: center;
+
+    border: 1px #000000 solid;
 }
 
 .elt:hover {
@@ -70,18 +80,21 @@
     grid-column: 5;
 }
 
+/* The paragraphs */
+
 body {
     background-color: #0f0f0f;
     color: #ffffff;
 
     text-align: center;
-
 }
 
 .section {
     font-size: 50px;
     background-color: #808080;
     color: #000000;
+
+    margin-top: 1%;
 }
 
 .dossier {
@@ -93,6 +106,7 @@ body {
 
 caption {
     font-size:xx-large;
+    font-weight: bold;
 
     padding-top: 10px;
     padding-bottom: 10px;
@@ -110,5 +124,12 @@ td, th {
 
     padding: 50px;
 
-    font-size: x-large;
+    font-size: xx-large;
+    font-weight: 400;
+}
+
+/* Unique class */
+
+.Formulaire {
+    color: white;
 }
