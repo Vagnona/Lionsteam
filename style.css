@@ -26,7 +26,7 @@ a {
     grid-column: 2 / 5;
 
     padding-top: 2%;
-    margin-right: 28%;
+    /* padding-left: 3%; */
 
     /* font-size: 40px; */
     font-size: 3em;
@@ -78,10 +78,6 @@ a {
 
 .elt5 {
     grid-column: 5;
-}
-
-.elt6 {
-    grid-column: 6;
 }
 
 /* The paragraphs */
