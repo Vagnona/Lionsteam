@@ -13,7 +13,7 @@ a {
     background-color: #808080;
     
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 0,5fr 0.25fr;
 }
 
@@ -78,6 +78,10 @@ a {
 
 .elt5 {
     grid-column: 5;
+}
+
+.elt6 {
+    grid-column: 6;
 }
 
 /* The paragraphs */
